@@ -1,0 +1,210 @@
+#compicon {
+    display: none;
+}
+ 
+body {
+    background-color: #F7F1ED;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+/*  Here I used the list feature to list out the 3 sections on the page Politics, Sports, and Tech.
+*/
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+
+
+.normal-btn {
+    width: 56px;
+    height: 24px;
+    border-radius: 25px;
+    background-color: rgba(240, 255, 255, 0);
+    border: 1px solid black;
+}
+
+#tech-btn {
+    background-color: #98002E;
+    color: white;
+    border: 1px solid #98002E ;
+}
+
+a {
+    border-radius: 25px;
+    background-color: #98002E;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 48px;
+    width: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header img {
+    width: 188px;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.article-img {
+    width: 100%;
+}
+
+#classroom {
+    width: 100%;
+}
+
+.articles {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0rem 2rem 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+.news-article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and  (min-width: 1320px) {
+    .articles{
+        grid-template-columns: 1fr 1fr .5fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .pizza {
+        grid-column: 2/ 4;
+
+    }
+
+    #compicon {
+        display: block;
+        justify-content: space-between;
+    }
+
+    header {
+        flex-direction: row;
+        width: 90%;
+        justify-content: space-between;
+        text-align: start;
+        justify-content: space-between;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    ul {
+        align-items: start;
+        text-align: start;
+        justify-content: left;
+    }
+
+    h1 {
+        text-align: start;
+    }
+}
+
+.about {
+    margin: 4rem 2rem 0rem 2rem;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about-background {
+    width: 100%;
+    background-color: #F4E2D6;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-bottom {
+    text-align: start;
+    margin-bottom: 4rem;
+}
+
+.button-footer {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    background-color: #98002E;
+    margin-top: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer img {
+    max-width: 100px;
+}
+
+.about-link {
+    margin-bottom: 4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem;
+}
